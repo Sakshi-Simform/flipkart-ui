@@ -1,0 +1,45 @@
+/* main-section */
+body {
+    background-color: #f1f2f4 !important;
+}
+
+.product-image {
+    height: 170px;
+    width: 170px;
+}
+
+.deals {
+    min-height: 4rem;
+}
+
+.item-font {
+    font-size: 14px;
+}
+
+#logo-clock {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.item-offer {
+    min-width: 240px;
+}
+
+.category-product {
+    min-width: 7rem;
+}
+
+.category-product span {
+    font-size: 1em;
+}
+
+#arrow-btn {
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-section-main p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
