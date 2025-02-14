@@ -1,6 +1,12 @@
 /* main-section */
 body {
     background-color: #f1f2f4 !important;
+    overflow: scroll;
+    overflow-x:hidden ;
+}
+
+::-webkit-scrollbar{
+    width: 0;
 }
 
 .product-image {
@@ -20,6 +26,7 @@ body {
 
 .item-font {
     font-size: 14px;
+    color: #888888;
 }
 
 #logo-clock {
