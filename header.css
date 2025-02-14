@@ -1,0 +1,22 @@
+/* header */
+header {
+    height: 4rem;
+}
+/* search-bar */
+.search-bar {
+    max-width: 36em;
+    outline: none;
+    border: none;
+}
+
+.search-bar button {
+    right: 0.5em;
+    margin: auto;
+    top: 0.20em;
+}
+
+.container img{
+    width: 6.25em;
+    height: 6.25em;
+}
+
