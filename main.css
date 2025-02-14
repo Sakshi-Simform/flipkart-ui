@@ -8,6 +8,12 @@ body {
     width: 170px;
 }
 
+.product-section-main p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .deals {
     min-height: 4rem;
 }
@@ -33,13 +39,8 @@ body {
     font-size: 1em;
 }
 
-#arrow-btn {
+/* button */
+.arrow-btn{
     font-weight: bold;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.product-section-main p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
