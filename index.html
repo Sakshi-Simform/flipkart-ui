@@ -12,6 +12,7 @@
     <title>Flipkart Ui Clone</title>
 
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="icon" href="assets/icon/favicon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -59,5 +60,270 @@
             </a>
         </div>
     </header>
+
+    <!-- main-section -->
+    <main>
+        <!-- category-section -->
+        <nav class="container-fluid bg-white p-0">
+            <div class="hide-scroll container p-2 gap-3 d-flex justify-content-start align-items-center overflow-x-auto">
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-top-offer">
+                    <img src="assets/category/offers.svg" alt="Top offers">
+                    <span id="category-top-offer">Top Offers</span>
+                </a>
+
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-grocery">
+                    <img src="assets/category/grocery.svg" alt="Grocery">
+                    <span id="category-grocery">Grocery</span>
+                </a>
+
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-mobiles">
+                    <img src="assets/category/mobiles.svg" alt="Mobiles">
+                    <span id="category-mobiles">Mobiles</span>
+                </a>
+
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-fashion">
+                    <img src="assets/category/fashion.png" alt="Fashion">
+                    <div>
+                        <span id="category-fashion">Fashion</span>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-electronics">
+                    <img src="assets/category/electronics.svg" alt="Fashion">
+                    <div>
+                        <span id="category-electronics">Electronics</span>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-furniture">
+
+                    <img src="assets/category/home.svg" alt="Home">
+                    <div>
+                        <span id="category-furniture">Home</span>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-appliance">
+                    <img src="assets/category/appliances.svg" alt="Appliances">
+                    <div>
+                        <span id="category-appliance">Appliances</span>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-travel">
+                    <img src="assets/category/travel.svg" alt="Travel">
+                    <span id="category-travel">Travel</span>
+                </a>
+
+                <a href="#"
+                    class="category-product text-black text-decoration-none d-flex flex-column align-items-center justify-content-center "
+                    role="button" aria-labelledby="category-beauty-more">
+                    <img src="assets/category/beauty-toys.svg" alt="Beauty, Toys & more">
+                    <div>
+                        <span id="category-beauty-more">Beauty, Toys & more</span>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </a>
+            </div>
+        </nav>
+
+        <!-- main-section-feed -->
+        <div class="product-item container p-0 px-md-0">
+            <div class="product-item-section1 container my-2 d-flex gap-1 p-0 ">
+                <div class="product-item-section2 bg-white d-flex flex-column justify-content-start flex-grow-1 position-relative ">
+                    <div class="deals d-flex align-items-center justify-content-between border-bottom px-3 ">
+                        <p class="d-flex align-items-center justify-content-center gap-2 m-0">
+                            <span class="fs-4">Deals of the Day</span>
+                            <img src="assets/product/clock.svg" class="ms-2" alt="clock-logo" id="logo-clock">
+                            <span class="text-secondary">22 : 07 : 36 Left</span>
+                        </p>
+                        <button class="btn rounded-1 btn-primary d-none d-sm-block fw-medium px-4 py-2">
+                            VIEW ALL
+                        </button>
+                    </div>
+                    <div class="product-section-main d-flex gap-5 p-3 flex-grow-1 overflow-x-auto">
+                        <a href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button" aria-labelledby="product-watch">
+                            <div class="product-image">
+                                <img src="assets/product/watch.jpeg" alt="watch" class="object-fit-contain w-100 h-100" loading="lazy">
+                            </div>
+                            <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-watch">Casio,Fastrack, Sonata</p>
+                            <p class="item-font text-success m-0">Upto 80%+Extra 10%Off</p>
+                            <p class="item-font text-secondary m-0 ">Knockout Deals!</p>
+                        </a>
+
+                        <a href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button" aria-labelledby="product-home-temple">
+                            <div class="product-image">
+                                <img src="assets/product/temple.jpeg" alt="home temple" class="object-fit-contain w-100 h-100" loading="lazy">
+                            </div>
+                            <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-home-temple">Home temples & more</p>
+                            <p class="item-font text-success m-0">Extra 10% off</p>
+                            <p class="item-font text-secondary m-0 ">Space Saving furniture</p>
+                        </a>
+
+                        <a href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button" aria-labelledby="product-tablet">
+                            <div class="product-image">
+                                <img src="assets/product/tablet.jpeg" alt="tablet case" class="object-fit-contain w-100 h-100" loading="lazy">
+                            </div>
+                            <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-tablet">Premium Tablet Cases</p>
+                            <p class="item-font text-success m-0">Extra 10% Off</p>
+                            <p class="item-font text-secondary m-0 ">For All Top Models</p>
+                        </a>
+
+                        <a href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button" aria-labelledby="product-decoration">
+                            <div class="product-image">
+                                <img src="assets/product/decor.jpeg" alt="home decoration" class="object-fit-contain w-100 h-100" loading="lazy">
+                            </div>
+                            <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-decoration">Best Of Home Decor</p>
+                            <p class="item-font text-success m-0">From <span>&#8377;</span>79</p>
+                            <p class="item-font text-secondary m-0 ">Lowest Price Ever</p>
+                        </a>
+
+                        <a href="#"
+                            class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                            role="button" aria-labelledby="product-mobile">
+                            <div class="product-image">
+                                <img src="assets/product/lava.jpeg" alt="lava mobile" class="object-fit-contain w-100 h-100" loading="lazy">
+                            </div>
+                            <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-mobile">LAVA A1500</p>
+                            <p class="item-font text-success m-0">Flat<span>&#8377;</span>830 Off</p>
+                            <p class="item-font text-secondary m-0 ">Now <span>&#8377;</span>999</p>
+                        </a>
+                    </div>
+
+                    <button
+                        class=" arrow-btn btn btn-light arrow-btn top-0 bottom-0 end-0 my-auto rounded-0 px-2 h-25 fs-2 position-absolute" aria-label="right-scroll">
+                        >
+                    </button>
+                </div>
+
+                <a href="#" class="bg-white d-none d-lg-block p-1" role="button">
+                    <img src="assets/product/offcard.png" alt="offer-card" class="h-100 item-offer" loading="lazy">
+                </a>
+            </div>
+
+            <!-- second-feed-section -->
+            <div class="products-item container p-0 px-md-0">
+                <div class="product-item-section1 container my-2 d-flex gap-2 p-0">
+                    <div
+                        class="product-item-section2 flex-grow-1 bg-white d-flex flex-column justify-content-start position-relative overflow-x-auto">
+
+                        <div class="deals d-flex align-items-center justify-content-between border-bottom px-3 ">
+                            <p class="d-flex flex-column m-0">
+                                <span class="fs-4">Books And music Instruments</span>
+                                <span class="text-secondary">Shop Now!</span>
+                            </p>
+                            <button class="d-none d-sm-block btn rounded-1 btn-primary fw-medium px-4 py-2">
+                                VIEW ALL
+                            </button>
+                        </div>
+
+                        <div class="product-section-main d-flex gap-5 p-3 flex-grow-1">
+                            <a href="#"
+                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                                role="button" aria-labelledby="product-harmonium">
+                                <div class="product-image">
+                                    <img src="assets/product/harmonium.jpeg" alt="harmonium" class="object-fit-contain w-100 h-100" loading="lazy">
+                                </div>
+                                <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-harmonium">Harmoniums</p>
+                                <p class="item-font text-success m-0">Upto 60% Off</p>
+                                <p class="item-font text-secondary m-0 ">Shop Now!</p>
+                            </a>
+
+                            <a href="#"
+                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                                role="button" aria-labelledby="product-fluet">
+                                <div class="product-image">
+                                    <img src="assets/product/fluet.jpeg" alt="flute" class="object-fit-contain w-100 h-100" loading="lazy">
+                                </div>
+                                <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-fluet">Flutes </p>
+                                <p class="item-font text-success m-0">Up to 80% Off</p>
+                                <p class="item-font text-secondary m-0 ">Shop now!</p>
+                            </a>
+
+                            <a href="#"
+                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                                role="button" aria-labelledby="product-guitar">
+                                <div class="product-image">
+                                    <img src="assets/product/guitar.jpeg" alt="guitars" class="object-fit-contain w-100 h-100" loading="lazy">
+                                </div>
+                                <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-guitar">Acoustic Guitars</p>
+                                <p class="item-font text-success m-0">Starting<span>&#8377;</span>1799</p>
+                                <p class="item-font text-secondary m-0 ">Juarez, Revel</p>
+                            </a>
+
+                            <a href="#"
+                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                                role="button" aria-labelledby="guitar-servicekit">
+                                <div class="product-image">
+                                    <img src="assets/product/music.jpeg" alt="music kit" class="object-fit-contain w-100 h-100" loading="lazy">
+                                </div>
+                                <p class="item-font text-dark m-0 mt-auto fw-medium" id="guitar-servicekit">Musical
+                                    Accessories</p>
+                                <p class="item-font text-success m-0">Up to 80% Off</p>
+                                <p class="item-font text-secondary m-0 ">Shop Now!</p>
+                            </a>
+
+                            <a href="#"
+                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                                role="button" aria-labelledby="product-microphone-accesoories">
+                                <div class="product-image">
+                                    <img src="assets/product/microphone.jpeg" alt="microphone accessories"
+                                        class="  object-fit-contain w-100 h-100" loading="lazy">
+                                </div>
+                                <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-microphone-accesoories">Microphone Accessories</p>
+                                <p class="item-font text-success m-0">Up to 80% Off</p>
+                                <p class="item-font text-secondary m-0 ">Shop Now!</p>
+                            </a>
+
+                            <a href="#"
+                                class="d-flex flex-column align-items-center justify-content-start gap-1 text-decoration-none"
+                                role="button" aria-labelledby="product-acoustic-guitar">
+                                <div class="product-image">
+                                    <img src="assets/product/acoustic.jpeg" alt="acoustic guitar"
+                                        class="object-fit-contain w-100 h-100" loading="lazy">
+                                </div>
+                                <p class="item-font text-dark m-0 mt-auto fw-medium" id="product-acoustic-guitar">Acoustic Guitars</p>
+                                <p class="item-font text-success m-0">Starting<span>&#8377;</span>1999</p>
+                                <p class="item-font text-secondary m-0 ">By Revel</p>
+                            </a>
+                        </div>
+
+                        <button
+                            class=" arrow-btn btn btn-light top-0 bottom-0 end-0 my-auto rounded-0 px-2 h-25 fs-2 position-absolute" aria-label="right-scroll">
+                            >
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

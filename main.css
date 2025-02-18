@@ -1,0 +1,76 @@
+/* main-section */
+body {
+    background-color: #f1f2f4 !important;
+    overflow: scroll;
+    overflow-x:hidden ;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.product-image {
+    height: 10.625em;
+    width: 10.625em;
+}
+
+.product-section-main p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.deals {
+    min-height: 4rem;
+}
+
+.item-font {
+    font-size: 14px;
+    color: #888888;
+}
+
+#logo-clock {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.item-offer {
+    min-width: 240px;
+}
+
+.category-product {
+    min-width: 7rem;
+}
+
+.category-product IMG{
+    height: 4em;
+    width: 4em;
+}
+
+.category-product span {
+    font-size: 1em;
+}
+
+/* button */
+.arrow-btn{
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-section-main{
+    max-width: 100%;
+    overflow: auto;
+}
+
+.product-item-section2{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.product-section-main {
+    scrollbar-width: none;
+}
+
+.hide-scroll{
+    scrollbar-width: none;
+}
