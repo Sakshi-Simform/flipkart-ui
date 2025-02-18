@@ -66,3 +66,11 @@ body {
     max-width: 100%;
     overflow: hidden;
 }
+
+.product-section-main {
+    scrollbar-width: none;
+}
+
+.hide-scroll{
+    scrollbar-width: none;
+}
